@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>Hello JavaScript</title>
+        <script type="module" src="code.js" defer></script>
+        <style>
+            #colorPicker {
+                display: none;
+                position:absolute;
+                top: 0;
+                left:0;
+                width: 600px;
+                height: 600px;
+                background-color: white;
+                padding: 100px;
+            }
+        </style> 
+    </head>
+    <body>
+        <h1>Predict Trousers Color from T-Shirt Color</h1>
+        <object data="drawing.svg" type="image/svg+xml"
+         id="clothes" width="400" height="400"></object>
+        <div>
+            <button id="nnPredict">Trousers: Predict</button>
+            <button id="nnTrain">Trousers: Train</button>
+        </div> 
+        <div id="colorPicker">
+            <input type="color" id="color" name="head"
+                value="#ff0000" />
+            <label id="colorLabel" for="color">Select color</label>
+            <button id="colorApply">Apply</button>
+            <button id="colorCancel">Cancel</button>
+        </div> 
+    </body>
+</html>

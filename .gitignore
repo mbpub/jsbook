@@ -1,0 +1,13 @@
+temp/
+**/*.epub
+#**/*.pdf
+
+*.log
+npm-debug.log*
+node_modules
+text2pdf*
+build/text2pdf*/**
+
+.vscode
+.eslintcache
+.node_repl_history

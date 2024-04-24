@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>Maze Solver</title>
+        <style>
+            table, tr, td {
+                border: 1px solid gray;
+                border-spacing: 0;
+                border-collapse: collapse;
+            }
+            td {
+                width: 20px;
+                height: 20px;
+                text-align: center; 
+                vertical-align: middle;
+                cursor: pointer;
+            }
+            #error {
+                color: red;
+            }
+            input[type="number"] {
+                width: 40px;
+            }
+            button, input {
+                margin: 5px;
+            }
+        </style>
+    </head>
+    <body>
+        <div><h1>Maze Solver</h1></div>
+        <div id="selector">
+            <input type="number" id="rows" />
+                x <input type="number" id="cols" />
+            <button id="apply">Apply</button>
+            <button id="save">Save</button>
+            <br/>
+            <input type="file" id="fileSelector">
+            <br/>
+            <label for="dfs">DFS</label>
+            <input type="radio" id="dfs" name="searchType" value="dfs"
+                checked>
+            <label for="bfs">BFS</label>
+            <input type="radio" id="bfs" name="searchType" value="bfs">
+            <button id="solve">Solve</button>
+            <button id="clear">Clear</button>
+        </div>
+        <div>
+        </div>
+        <div id="maze"></div>
+
+        <div id="error"></div>
+        <script type="module" src="code.js"></script>
+    </body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>Hello JavaScript</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div id="app">
+            <canvas id="paint" width="640" height="480"></canvas>
+            <div id="controls">
+            <button id="save" title="Save" type="button">💾</button>
+            <button id="clear" title="Clear" type="button">🗑️</button>
+            <button id="undo" title="Undo" type="button">🔙</button>
+            <input type="color" id="color" value="#000000" title="Color" />
+            <label><input type="radio" name="shape" value="path" checked />Path</label>
+            <label><input type="radio" name="shape" value="circle" />Circle</label>
+            <button id="resetZoom" title="Reset Zoom" type="button">🔎</button>
+            <button id="center" title="Center" type="button">🎯</button>
+            <button id="help" title="Help" type="button">❔</button>
+            </div>
+            <div id="tutorial" class="hidden">
+                <ul>
+                    <li>Pan: Alt + mouse click, drag.</li>
+                    <li>Zoom: Mouse Wheel.</li>
+                    <li>To finish a Path - right-click;
+                        to undo the last segment - middle-click.</li>
+                </ul>
+            </div>
+        </div>
+        <script type="module" src="code.js"></script>
+    </body>
+</html>

@@ -1,0 +1,18 @@
+[
+    {
+      "id": "/",
+      "template": "@/home"
+    },
+	{
+      "id": "/home",
+      "template": "home.html"
+    },
+    {
+      "id": "/page1",
+      "template": "page1.html"
+    },
+    {
+      "id": "/page2",
+      "template": "page2.html"
+    }
+]

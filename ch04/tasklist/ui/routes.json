@@ -1,0 +1,14 @@
+[
+    {
+      "id": "/",
+      "template": "@/tasks"
+    },
+    {
+      "id": "/tasks",
+      "template": "tasks.html"
+    },
+    {
+      "id": "/create",
+      "template": "create.html"
+    }
+]

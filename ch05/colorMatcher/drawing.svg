@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="210mm"
+   viewBox="0 0 210 210"
+   version="1.1"
+   id="svg5"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs2" />
+  <g
+     id="layer1">
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+       d="M 60.896907,36.742266 31.253829,53.856707 42.695436,73.674154 62.123827,62.457168 V 90.154637 H 106.14433 V 61.237113 L 124.81292,72.015431 136.78524,51.278779 107.12591,34.154959 86.090484,46.29977 Z"
+       id="shirt" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 62.938143,97.979381 -0.680412,81.309279 h 20.752578 v -63.27835 h 5.103093 v 63.27835 H 106.48454 L 105.46392,97.639173 C 88.737921,97.431539 77.115699,97.337534 62.938143,97.979381 Z"
+       id="trousers" />
+  </g>
+</svg>

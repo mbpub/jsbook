@@ -1,0 +1,36 @@
+body {
+    margin: 10px;
+}
+
+#app {
+    text-align: center;
+}
+
+#paint {
+    background-color: whitesmoke;
+}
+
+#controls {
+    margin: 2px;
+}
+
+#tutorial {
+    text-align: left;
+    color: #666;
+}
+
+button {
+    width: 32px;
+    height: 32px;
+    background-color: white;
+    border: none;
+    color: white;
+}
+
+button:hover {
+    border: solid thin gray;
+}
+
+.hidden {
+    display: none;
+}

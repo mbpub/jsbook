@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>Hello Worker</title>
+        <link rel="stylesheet" type="text/css" href="./styles.css" />
+    </head>
+    <body>
+        <div class="container">
+            <h1>Web Worker Example</h1>
+            <form>
+            <div class="row marginTop">
+                <textarea class="margin"
+                    id="message" rows="10" cols="40"></textarea>
+            </div>
+            <div class="row marginTop">                
+                    <label for="password"
+                        class="padding">Password</label>
+                    <input type="password" class="padding"
+                        id="password" autocomplete="off" />
+            </div>
+            <div class="row marginTop">
+                <button id="encrypt"
+                    type="button" class="padding">Encrypt</button>
+                <button id="decrypt"
+                    type="button" class="padding">Decrypt</button>
+            </div>
+            </form>
+        </div>
+        <script type="module" src="controller.js"></script>
+    </body>
+</html>

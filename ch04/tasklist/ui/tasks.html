@@ -1,0 +1,28 @@
+<div>
+    <div class="container text-center">
+        <div class="row" id="main">
+        </div>
+    </div>
+
+    <template id="taskCard">
+        <div class="col">
+        <div class="card" id="${task._id}"
+            style="width: 18rem; margin: 20px;">
+            <img src="taskcard.png"
+                class="card-img-top">
+            <div class="card-body">
+                <h5 id="title" class="card-title"></h5>
+                <p id="details" class="card-text"></p>
+                <button type="button" id="edit" class="btn btn-warning"
+                    data-task="">Edit</button>
+                <button type="button" id="delete" class="btn btn-danger"
+                    data-task="">Delete</button>
+            </div>
+        </div>
+        </div>
+    </template>
+    
+    <script type="module" src="tasks.js" />
+    
+</div>
+

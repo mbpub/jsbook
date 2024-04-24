@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>Hello JavaScript</title>
+        <style>
+            table, th, td {
+                border: 1px solid;
+                border-collapse: collapse;
+                text-align: center;
+            }
+            th, td {
+                width: 20px;
+                height: 20px;
+            }
+            table {
+                display:inline-table;
+                width: 60px;
+                height: 60px;
+                margin-bottom: 3px;
+            }
+            table.final {
+                background-color: bisque;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="app"></div>
+        <script type="module" src="code.js"></script>
+
+        <table>
+            <tr><td>.</td><td>1</td><td>.</td></tr>
+            <tr><td>.</td><td>.</td><td>.</td></tr>
+            <tr><td>.</td><td>.</td><td>.</td></tr>
+        </table>
+
+        <table>
+            <tr><td>.</td><td>1</td><td>.</td></tr>
+            <tr><td>.</td><td>.</td><td>.</td></tr>
+            <tr><td>.</td><td>.</td><td>2</td></tr>
+        </table>
+
+        <table>
+            <tr><td>.</td><td>1</td><td>.</td></tr>
+            <tr><td>3</td><td>.</td><td>.</td></tr>
+            <tr><td>.</td><td>.</td><td>2</td></tr>
+        </table>
+
+        <br>
+
+        <table>
+            <tr><td>.</td><td>1</td><td>.</td></tr>
+            <tr><td>3</td><td>.</td><td>.</td></tr>
+            <tr><td>4</td><td>.</td><td>2</td></tr>
+        </table>
+
+        <table>
+            <tr><td>.</td><td>1</td><td>.</td></tr>
+            <tr><td>3</td><td>5</td><td>.</td></tr>
+            <tr><td>4</td><td>.</td><td>2</td></tr>
+        </table>
+
+        <table>
+            <tr><td>.</td><td>1</td><td>6</td></tr>
+            <tr><td>3</td><td>5</td><td>.</td></tr>
+            <tr><td>4</td><td>.</td><td>2</td></tr>
+        </table>
+
+        <br>    
+
+        <table>
+            <tr><td>.</td><td>1</td><td>6</td></tr>
+            <tr><td>3</td><td>5</td><td>7</td></tr>
+            <tr><td>4</td><td>.</td><td>2</td></tr>
+        </table>
+
+        <table>
+            <tr><td>8</td><td>1</td><td>6</td></tr>
+            <tr><td>3</td><td>5</td><td>.</td></tr>
+            <tr><td>4</td><td>.</td><td>2</td></tr>
+        </table>
+
+        <table class="final">
+            <tr><td>8</td><td>1</td><td>6</td></tr>
+            <tr><td>3</td><td>5</td><td>7</td></tr>
+            <tr><td>4</td><td>9</td><td>2</td></tr>
+        </table>
+    </body>
+</html>

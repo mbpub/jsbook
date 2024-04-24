@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>Hello Sudoku</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div id="app">
+            <h1>&#128517; Sudoku</h1>
+            <div id="levelSelector">
+                <label for="level">Difficultly</label>
+                <input id="level" type="range" min="10" max="90" step="20" value="50" />
+            </div>
+            <div id="buttons">
+                <button id="generate">Generate</button>
+                <button id="solve">Solve</button>
+                <button id="test">Test</button>
+            </div>
+            <div id="board"></div>
+            <div id ="message"></div>
+        </div>
+        <script type="module" src="code.js"></script>
+    </body>
+</html>
